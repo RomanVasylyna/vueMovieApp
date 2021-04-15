@@ -1,13 +1,23 @@
 <template>
  <div class="movie">
- Detail
- {{ $route.params.id }}
+  <h2>Movie Title</h2>
  </div>   
 </template>
 
 <script>
+import { ref, onBeforeMount } from 'vue';
+
 export default {
-name: 'MovieDetail',    
+name: 'MovieDetail', 
+setup() {
+const movie = ref({});
+const route = useRoute()
+
+return{
+    
+} 
+
+}  
 }
 </script>
 
