@@ -13,8 +13,9 @@
     <div class="detail">
       <h3>Naruto</h3>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam
-        beatae obcaecati non perspiciatis quibusdam
+       Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches
+       for recognition and dreams of becoming the Hokage, the village's leader
+       and strongest ninja.
       </p>
     </div>
 
@@ -64,10 +65,10 @@ export default {
         )
           .then(res => res.json())
           .then(data => {
-          movies.value = data.Search; 
-          search.value = ""; 
-          console.log(data); 
-          console.log(movies); 
+          movies.value = data.Search;
+          search.value = "";
+          console.log(data);
+          console.log(movies);
           })
           .catch(err => console.log(err));
       }
@@ -101,7 +102,7 @@ export default {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 400px;
+  bottom: 52vh;
   padding: 15px;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
@@ -163,11 +164,11 @@ input[type="submit"]:active {
 .movies-list{
 display: flex;
 flex-wrap: wrap;
-margin: 0px 8px;  
+margin: 0px 8px;
 }
 
 .movie{
-max-width: 50%;  
+max-width: 50%;
 flex: 1 1 50%;
 padding: 16px 8px;
 }
@@ -198,14 +199,14 @@ text-transform: capitalize;
 }
 
 .movie-detail{
-background-color: #496583; 
-padding: 16px 8px; 
+background-color: #496583;
+padding: 16px 8px;
 border-radius: 0px 0px 10px 10px;
 flex: 1 1 100%;
 }
 
 .movie-year{
-color: #AAA;  
+color: #AAA;
 font-size: 14px;
 }
 </style>

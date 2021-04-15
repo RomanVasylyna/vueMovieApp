@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  
+
 }
 </script>
 
@@ -21,12 +21,12 @@ export default {
 *{
 margin: 0;
 padding: 0;
-box-sizing: border-box;  
+box-sizing: border-box;
 font-family: 'Fira Sans', sans-serif;
 }
 
 body{
-background-color: #35495E;  
+background-color: #35495E;
 color: #fff;
 }
 
@@ -35,7 +35,7 @@ text-decoration: none;
 }
 
 header{
-margin: 0px auto;  
+margin: 0px auto;
 text-align: center;
 background-color: #2C3D4E;
 padding: 10px 16px;
@@ -48,7 +48,7 @@ font-size: 28px;
 }
 
 h1 span{
-color: #42B883;  
+color: #42B883;
 }
 
 </style>
